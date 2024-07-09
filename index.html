@@ -51,6 +51,9 @@
         .justify-space-between {
             justify-content: space-between;
         }
+        .justify-space-around {
+            justify-content: space-around;
+        }
         .align-start {
             height: 400px;
             align-items: flex-start;
@@ -59,7 +62,6 @@
             align-items: flex-end;
             height: 400px;
         }
-
     </style>
 </head>
 <body>
@@ -118,6 +120,13 @@
 
     <h4>Space Between (espacio entre)</h4>
     <div class="container flex-container flex-row justify-space-between">
+        <div class="box">Flex 1</div>
+        <div class="box">Flex 2</div>
+        <div class="box">Flex 3</div>
+    </div>
+
+    <h4>Space Around (espacio alrededor)</h4>
+    <div class="container flex-container flex-row justify-space-around">
         <div class="box">Flex 1</div>
         <div class="box">Flex 2</div>
         <div class="box">Flex 3</div>
