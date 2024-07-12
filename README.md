@@ -2,7 +2,7 @@
 # Distintos Valores de Display en CSS
 
 ## Introducción
-Este documento está diseñado para ayudarte a comprender las diferencias entre varios valores de la propiedad \`display\` en CSS y cómo usar \`flexbox\` para organizar y alinear elementos dentro de un contenedor. Aprenderás sobre \`block\`, \`inline\`, \`inline-block\`, y \`flex\`, así como las propiedades asociadas con \`flexbox\` como \`flex-direction\`, \`justify-content\`, \`align-items\`, y \`flex-wrap\`.
+Este documento está diseñado para ayudarte a comprender las diferencias entre varios valores de la propiedad `display` en CSS y cómo usar `flexbox` para organizar y alinear elementos dentro de un contenedor. Aprenderás sobre `block`, `inline`, `inline-block`, y `flex`, así como las propiedades asociadas con `flexbox` como `flex-direction`, `justify-content`, `align-items`, y `flex-wrap`.
 
 ## Estructura del Proyecto
 El proyecto contiene un archivo HTML y CSS que ilustra los conceptos mencionados. A continuación, se explican las secciones clave del código.
