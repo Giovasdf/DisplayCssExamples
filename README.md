@@ -34,9 +34,9 @@ El proyecto contiene un archivo HTML y CSS que ilustra los conceptos mencionados
 ```html
 <h2>display: block</h2>
 <p>Los elementos con display: block ocupan todo el ancho disponible de su contenedor y comienzan en una nueva línea.</p>
-<div class=\"container block\">
-    <div class=\"box\">Block 1</div>
-    <div class=\"box\">Block 2</div>
+<div class="container block">
+    <div class="box">Block 1</div>
+    <div class="box">Block 2</div>
 </div>
 ```
 
@@ -44,9 +44,9 @@ El proyecto contiene un archivo HTML y CSS que ilustra los conceptos mencionados
 ```html
 <h2>display: inline</h2>
 <p>Los elementos con display: inline no inician en una nueva línea y solo ocupan el espacio necesario para su contenido.</p>
-<div class=\"container\">
-    <span class=\"box inline\">Inline 1</span>
-    <span class=\"box inline\">Inline 2</span>
+<div class="container">
+    <span class="box inline">Inline 1</span>
+    <span class="box inline">Inline 2</span>
 </div>
 ```
 
@@ -54,13 +54,14 @@ El proyecto contiene un archivo HTML y CSS que ilustra los conceptos mencionados
 ```html
 <h2>display: inline-block</h2>
 <p>Los elementos con display: inline-block no inician en una nueva línea, pero permiten definir su tamaño con width y height.</p>
-<div class=\"container\">
-    <span class=\"box inline-block\">Inline-Block 1</span>
-    <span class=\"box inline-block\">Inline-Block 2</span>
+<div class="container">
+    <span class="box inline-block">Inline-Block 1</span>
+    <span class="box inline-block">Inline-Block 2</span>
 </div>
-```h
+```
+
 #### Display Flex
-\`\`\`html
+```html
 <h2>display: flex</h2>
 <p>Los elementos con display: flex se organizan en un contenedor flexible. Puedes controlar la dirección, el alineamiento y la distribución de los elementos hijos.</p>
 
@@ -71,10 +72,10 @@ El proyecto contiene un archivo HTML y CSS que ilustra los conceptos mencionados
 ```html
 <h3>flex-direction</h3>
 <p>La propiedad <code>flex-direction</code> define la dirección en la que los elementos flexibles se colocan en el contenedor.</p>
-<div class=\"container flex-container flex-row\">
-    <div class=\"box\">Flex 1</div>
-    <div class=\"box\">Flex 2</div>
-    <div class=\"box\">Flex 3</div>
+<div class="container flex-container flex-row">
+    <div class="box">Flex 1</div>
+    <div class="box">Flex 2</div>
+    <div class="box">Flex 3</div>
 </div>
 ```
 #### Justify Content
@@ -83,24 +84,24 @@ El proyecto contiene un archivo HTML y CSS que ilustra los conceptos mencionados
 <p>La propiedad <code>justify-content</code> alinea los elementos hijos a lo largo del eje principal (horizontal por defecto) del contenedor flexible.</p>
 
 <h4>Center (centrar)</h4>
-<div class=\"container flex-container flex-row justify-center\">
-    <div class=\"box\">Flex 1</div>
-    <div class=\"box\">Flex 2</div>
-    <div class=\"box\">Flex 3</div>
+<div class="container flex-container flex-row justify-center">
+    <div class="box">Flex 1</div>
+    <div class="box">Flex 2</div>
+    <div class="box">Flex 3</div>
 </div>
 
 <h4>Space Between (espacio entre)</h4>
-<div class=\"container flex-container flex-row justify-space-between\">
-    <div class=\"box\">Flex 1</div>
-    <div class=\"box\">Flex 2</div>
-    <div class=\"box\">Flex 3</div>
+<div class="container flex-container flex-row justify-space-between">
+    <div class="box">Flex 1</div>
+    <div class="box">Flex 2</div>
+    <div class="box">Flex 3</div>
 </div>
 
 <h4>Space Around (espacio alrededor)</h4>
-<div class=\"container flex-container flex-row justify-space-around\">
-    <div class=\"box\">Flex 1</div>
-    <div class=\"box\">Flex 2</div>
-    <div class=\"box\">Flex 3</div>
+<div class="container flex-container flex-row justify-space-around">
+    <div class="box">Flex 1</div>
+    <div class="box">Flex 2</div>
+    <div class="box">Flex 3</div>
 </div>
 ```
 
@@ -110,17 +111,17 @@ El proyecto contiene un archivo HTML y CSS que ilustra los conceptos mencionados
 <p>La propiedad <code>align-items</code> alinea los elementos hijos a lo largo del eje secundario (vertical por defecto) del contenedor flexible.</p>
 
 <h4>Flex Start (inicio)</h4>
-<div class=\"container flex-container flex-row align-start\">
-    <div class=\"box\">Flex 1</div>
-    <div class=\"box\">Flex 2</div>
-    <div class=\"box\">Flex 3</div>
+<div class="container flex-container flex-row align-start">
+    <div class="box">Flex 1</div>
+    <div class="box">Flex 2</div>
+    <div class="box">Flex 3</div>
 </div>
 
 <h4>Flex End (final)</h4>
-<div class=\"container flex-container flex-row align-end\">
-    <div class=\"box\">Flex 1</div>
-    <div class=\"box\">Flex 2</div>
-    <div class=\"box\">Flex 3</div>
+<div class="container flex-container flex-row align-end">
+    <div class="box">Flex 1</div>
+    <div class="box">Flex 2</div>
+    <div class="box">Flex 3</div>
 </div>
 ```
 
@@ -128,12 +129,12 @@ El proyecto contiene un archivo HTML y CSS que ilustra los conceptos mencionados
 ```html
 <h3>Flex Wrap (ajuste)</h3>
 <p>La propiedad <code>flex-wrap</code> permite que los elementos flexibles pasen a una nueva línea si no caben en una sola fila.</p>
-<div class=\"container flex-container flex-row flex-wrap\">
-    <div class=\"box\">Flex 1</div>
-    <div class=\"box\">Flex 2</div>
-    <div class=\"box\">Flex 3</div>
-    <div class=\"box\">Flex 4</div>
-    <div class=\"box\">Flex 5</div>
+<div class="container flex-container flex-row flex-wrap">
+    <div class="box">Flex 1</div>
+    <div class="box">Flex 2</div>
+    <div class="box">Flex 3</div>
+    <div class="box">Flex 4</div>
+    <div class="box">Flex 5</div>
 </div>
 ```
 
